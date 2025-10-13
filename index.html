@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kritika's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <header>
+      <nav>
+        <div class="logo">Kritika Sharma</div>
+        <ul class="nav-links">
+          <li><a href="#intro">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Achievements</a></li>
+        </ul>
+        <label class="switch">
+          <input type="checkbox" id="theme-toggle" />
+          <span class="slider round"></span>
+        </label>
+      </nav>
+    </header>
+
+    <!-- ===== INTRO SECTION ===== -->
+    <section id="intro" class="intro">
+      <div class="intro-left">
+        <h1 class="intro-greeting">
+          Hello,<br />
+          I'm
+        </h1>
+        <h1 class="intro-name">Kritika Sharma</h1>
+        <h2 class="intro-profession">
+          <span id="typing"></span>
+        </h2>
+        <p style="font-style: italic">"Coding my dreams into reality ✨"</p>
+        <br />
+        <a href="#projects" class="btn">See My Work</a>
+      </div>
+      <div class="intro-right">
+        <div class="pic-container">
+          <img src="your-photo.jpg" alt="Photo" />
+          <div class="circle-oval circle-1"></div>
+          <div class="circle-oval circle-2"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ME ===== -->
+    <section id="about" class="about">
+      <div class="about-container">
+        <!-- Left -->
+        <div class="about-left">
+          <div class="about-img-wrapper">
+            <img src="images/profile2.jpg" alt="About Me" />
+          </div>
+        </div>
+
+        <!-- Right -->
+        <div class="about-right">
+          <h2>About Me</h2>
+          <p>
+            I’m Kriti, a passionate Web Developer and Software Engineer in the
+            making. I love crafting digital experiences that are not just
+            functional but also aesthetically beautiful. Beyond coding, I’m
+            deeply into art, music, and dance, which keeps my creativity
+            flowing. My dream? To build meaningful projects that make life
+            simpler, smoother, and more fun ✨
+          </p>
+
+          <h3>Hobbies & Interests</h3>
+          <ul class="hobbies">
+            <li>🎨 Art & Design</li>
+            <li>💃 Dance</li>
+            <li>🎶 Music</li>
+            <li>🖋 Writing</li>
+            <li>📚 Reading</li>
+          </ul>
+
+          <a href="resume.pdf" class="btn">Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section class="skills" id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <span class="skill"><i class="fab fa-html5"></i> HTML5</span>
+        <span class="skill"><i class="fab fa-css3-alt"></i> CSS3</span>
+        <span class="skill"><i class="fab fa-js"></i> JavaScript</span>
+        <span class="skill"><i class="fab fa-react"></i> React</span>
+        <span class="skill"><i class="fab fa-java"></i> Java</span>
+        <span class="skill"><i class="fas fa-database"></i> SQL</span>
+        <span class="skill"><i class="fab fa-git-alt"></i> Git</span>
+        <span class="skill"><i class="fab fa-aws"></i> AWS</span>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION TIMELINE ===== -->
+    <section class="education" id="education">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>B.Tech in Computer Science</h3>
+            <span class="date">2022 - Present</span>
+            <p>
+              XYZ University — Exploring Web Dev, AI, and Software Engineering.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Intermediate (12th)</h3>
+            <span class="date">2020 - 2022</span>
+            <p>ABC School — PCM with Computer Science.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>High School (10th)</h3>
+            <span class="date">2018 - 2020</span>
+            <p>
+              ABC School — Foundation of problem-solving and logic building.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section class="experience" id="experience">
+      <h2>Experience</h2>
+      <div class="exp-container">
+        <div class="exp-card">
+          <h3>Web Development Intern</h3>
+          <span class="company">TechCorp | 2024</span>
+          <p>
+            Worked on frontend development with React, Bootstrap, and JS. Built
+            reusable components and improved UI/UX performance.
+          </p>
+        </div>
+
+        <div class="exp-card">
+          <h3>Software Developer Trainee</h3>
+          <span class="company">SoftPro | 2023</span>
+          <p>
+            Assisted in building scalable backend APIs using Java and Spring
+            Boot. Gained exposure to Agile workflows and version control.
+          </p>
+        </div>
+
+        <div class="exp-card">
+          <h3>Freelance Projects</h3>
+          <span class="company">2022 - Present</span>
+          <p>
+            Designed and developed portfolio websites and small business
+            solutions using HTML, CSS, JS, and Python Flask.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>
+              A personal portfolio showcasing my skills, projects, and
+              achievements with light/dark mode support.
+            </p>
+            <a href="#" class="project-btn">Live Demo</a>
+            <a href="#" class="project-btn2">View GitHub</a>
+          </div>
+
+          <div class="project-card">
+            <h3>Train Booking System</h3>
+            <p>
+              Developed a ticket booking platform like IRCTC with seat
+              selection, payments, and live status.
+            </p>
+            <a href="#" class="project-btn">Live Demo</a>
+            <a href="#" class="project-btn2">View GitHub</a>
+          </div>
+
+          <div class="project-card">
+            <h3>AI Chatbot</h3>
+            <p>
+              Created a conversational AI bot that answers queries using NLP and
+              integrates into websites.
+            </p>
+            <a href="#" class="project-btn">Live Demo</a>
+            <a href="#" class="project-btn2">View GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ACHIEVEMENTS ===== -->
+    <section id="achievements" class="achievements">
+      <h2 class="section-title">Achievements</h2>
+      <div class="achievement-cards">
+        <div class="achievement-card">
+          <div class="icon">🏆</div>
+          <div class="content">
+            <h3>Certification in Java</h3>
+            <span>Oracle Academy | 2024</span>
+            <p>
+              Earned advanced Java certification, covering OOP, DSA, and
+              real-world applications.
+            </p>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="icon">🥇</div>
+          <div class="content">
+            <h3>Hackathon Winner</h3>
+            <span>Smart India Hackathon | 2024</span>
+            <p>
+              Led a 5-member team to build an AI-powered solution for
+              sustainable agriculture.
+            </p>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="icon">🎤</div>
+          <div class="content">
+            <h3>Speaker at College TechFest</h3>
+            <span>2023</span>
+            <p>
+              Delivered a session on Web Development trends and cloud
+              technologies.
+            </p>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="icon">📜</div>
+          <div class="content">
+            <h3>AWS Cloud Practitioner</h3>
+            <span>Amazon Web Services | 2023</span>
+            <p>
+              Achieved foundational certification in AWS services, cloud
+              security, and deployment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-about">
+          <h2>Kritika Sharma</h2>
+          <p>Creative Developer & Designer. Building things that matter.</p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h3>Follow Me</h3>
+          <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <button id="scrollTopBtn">↑</button>
+
+      <p class="footer-bottom">&copy; 2025 Kriti. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
